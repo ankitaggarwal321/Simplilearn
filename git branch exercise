@@ -64,3 +64,15 @@
   519  git merge branch2
   520  git log --oneline
   521  git log --oneline --graph
+
+
+  525  git branch branch3
+  526  git checkout branch3
+  527  touch fileinbranch3
+  528  git add .
+  529  git commit -m"commit in branch3"
+  530  git remote -v
+  531  git pull
+  532  git pull --rebase
+  533  git remote -v
+  534  git push -u origin branch3
