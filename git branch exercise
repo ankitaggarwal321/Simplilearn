@@ -1,0 +1,66 @@
+  486  git branch
+  487  git branch branch2
+  488  checkout branch2
+  489  git checkout branch2
+  490  touch file2-1
+  491  git add .
+  492  git commit -m"c2.1"
+  493  touch file2-2
+  494  git add .
+  495  git commit -m"c2.2"
+  496  git branch branch2.2
+  497  git btanch
+  498  git branch
+  499  touch file2-3
+  500  git add .
+  501  git commit -m"c2.3"
+  502  git checkout branch2.2
+  503  touch file2-2-1
+  504  git add .
+  505  git commit -m"c2.2.1"
+  506  touch file2-2-2
+  507  git add .
+  508  git commit -m"c2.2.2"
+  509  ls
+  510  git log --oneline
+  511  git merge branch2.2
+  512  git checkout branch2
+  513  git merge branch2.2
+  514  git log --oneline
+  515  git checkout master
+486  git branch
+  487  git branch branch2
+  488  checkout branch2
+  489  git checkout branch2
+  490  touch file2-1
+  491  git add .
+  492  git commit -m"c2.1"
+  493  touch file2-2
+  494  git add .
+  495  git commit -m"c2.2"
+  496  git branch branch2.2
+  497  git btanch
+  498  git branch
+  499  touch file2-3
+  500  git add .
+  501  git commit -m"c2.3"
+  502  git checkout branch2.2
+  503  touch file2-2-1
+  504  git add .
+  505  git commit -m"c2.2.1"
+  506  touch file2-2-2
+  507  git add .
+  508  git commit -m"c2.2.2"
+  509  ls
+  510  git log --oneline
+  511  git merge branch2.2
+  512  git checkout branch2
+  513  git merge branch2.2
+  514  git log --oneline
+  515  git checkout master
+  516  touch file-master
+  517  git add .
+  518  git commit -m"c1.1"
+  519  git merge branch2
+  520  git log --oneline
+  521  git log --oneline --graph
